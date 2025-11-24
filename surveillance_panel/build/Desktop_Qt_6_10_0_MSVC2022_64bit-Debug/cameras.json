@@ -1,0 +1,88 @@
+{
+    "cameras": [
+        {
+            "enabled": true,
+            "id": "cam1",
+            "name": "Default Camera",
+            "roi": {
+                "points": [
+                ]
+            },
+            "source": "0",
+            "tripwire": {
+                "end": {
+                    "x": 0,
+                    "y": 0
+                },
+                "start": {
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "type": "usb"
+        },
+        {
+            "enabled": true,
+            "id": "cam2",
+            "name": "iPad Camera",
+            "roi": {
+                "points": [
+                ]
+            },
+            "source": "http://10.2.5.150:8081/video",
+            "tripwire": {
+                "end": {
+                    "x": 0,
+                    "y": 0
+                },
+                "start": {
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "type": "ip"
+        },
+        {
+            "enabled": true,
+            "id": "cam3",
+            "name": "Phone Camera",
+            "roi": {
+                "points": [
+                ]
+            },
+            "source": "http://192.168.0.25:8080/video",
+            "tripwire": {
+                "end": {
+                    "x": 0,
+                    "y": 0
+                },
+                "start": {
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "type": "ip"
+        },
+        {
+            "enabled": true,
+            "id": "cam4",
+            "name": "RTSP Camera",
+            "roi": {
+                "points": [
+                ]
+            },
+            "source": "rtsp://username:password@192.168.0.50:554/stream1",
+            "tripwire": {
+                "end": {
+                    "x": 0,
+                    "y": 0
+                },
+                "start": {
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            "type": "rtsp"
+        }
+    ]
+}

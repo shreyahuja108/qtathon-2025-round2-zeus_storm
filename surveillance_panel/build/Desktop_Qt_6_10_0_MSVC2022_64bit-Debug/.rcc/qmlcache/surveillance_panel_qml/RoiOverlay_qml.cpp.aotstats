@@ -1,0 +1,271 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
+                            "durationMicroseconds": 770,
+                            "functionName": "onRoiEditModeChanged",
+                            "line": 13,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 32,
+                            "durationMicroseconds": 316,
+                            "functionName": "onTripwireEditModeChanged",
+                            "line": 21,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 33,
+                            "durationMicroseconds": 100,
+                            "functionName": "tempRoiPoints",
+                            "line": 33,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 30,
+                            "durationMicroseconds": 263,
+                            "functionName": "mousePos",
+                            "line": 35,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
+                            "durationMicroseconds": 69,
+                            "functionName": "storedRoiPoints",
+                            "line": 38,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 1044,
+                            "functionName": "loadStoredData",
+                            "line": 59,
+                            "message": "Cannot access value for name cameraManager"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 124,
+                            "functionName": "startRoiEdit",
+                            "line": 65,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 5,
+                            "durationMicroseconds": 116,
+                            "functionName": "startTripwireEdit",
+                            "line": 72,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 145,
+                            "functionName": "cancelEdit",
+                            "line": 79,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 1665,
+                            "functionName": "finishRoiEdit",
+                            "line": 87,
+                            "message": "Cannot load property length from (component in C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel/qml/RoiOverlay.qml)::tempRoiPoints with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 0,
+                            "functionName": "finishTripwireEdit",
+                            "line": 106,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 28,
+                            "durationMicroseconds": 62,
+                            "functionName": "onCompleted",
+                            "line": 41,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 17,
+                            "durationMicroseconds": 96,
+                            "functionName": "target",
+                            "line": 46,
+                            "message": "Cannot access value for name cameraManager"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 0,
+                            "functionName": "onRoiChanged",
+                            "line": 47,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 0,
+                            "functionName": "onTripwireChanged",
+                            "line": 52,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 18,
+                            "durationMicroseconds": 55,
+                            "functionName": "enabled",
+                            "line": 125,
+                            "message": "Cannot access value for name roiEditMode"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 26,
+                            "durationMicroseconds": 340,
+                            "functionName": "acceptedButtons",
+                            "line": 126,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 321,
+                            "functionName": "onPositionChanged",
+                            "line": 129,
+                            "message": "Cannot access value for name mouse"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 465,
+                            "functionName": "onClicked",
+                            "line": 136,
+                            "message": "Cannot access value for name roiEditMode"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 20,
+                            "durationMicroseconds": 52,
+                            "functionName": "onClicked",
+                            "line": 136,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 88,
+                            "functionName": "onDoubleClicked",
+                            "line": 156,
+                            "message": "Cannot access value for name roiEditMode"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 77,
+                            "functionName": "fill",
+                            "line": 124,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 18,
+                            "durationMicroseconds": 11164,
+                            "functionName": "onPaint",
+                            "line": 168,
+                            "message": "Cannot access value for name roiEditMode"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 127,
+                            "functionName": "fill",
+                            "line": 166,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 18,
+                            "durationMicroseconds": 100,
+                            "functionName": "running",
+                            "line": 278,
+                            "message": "Cannot access value for name cameraStream"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 89,
+                            "functionName": "onTriggered",
+                            "line": 282,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 116,
+                            "functionName": "width",
+                            "line": 290,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 18,
+                            "durationMicroseconds": 48,
+                            "functionName": "visible",
+                            "line": 297,
+                            "message": "Cannot access value for name roiEditMode"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 25,
+                            "durationMicroseconds": 80,
+                            "functionName": "bottom",
+                            "line": 287,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 71,
+                            "functionName": "horizontalCenter",
+                            "line": 288,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 19,
+                            "durationMicroseconds": 107,
+                            "functionName": "text",
+                            "line": 302,
+                            "message": "Cannot access value for name roiEditMode"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 71,
+                            "functionName": "centerIn",
+                            "line": 301,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel/qml/RoiOverlay.qml"
+                }
+            ],
+            "moduleId": "SurveillancePanel(surveillance_panel)"
+        }
+    ]
+}

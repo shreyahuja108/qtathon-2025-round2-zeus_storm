@@ -1,0 +1,58 @@
+{
+  "cameras": [
+    {
+      "id": 1,
+      "name": "Front Entrance",
+      "type": "usb",
+      "source": 0,
+      "enabled": true,
+      "resolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "fps": 30
+    },
+    {
+      "id": 2,
+      "name": "Back Parking Lot",
+      "type": "rtsp",
+      "source": "rtsp://192.168.1.100:554/stream1",
+      "enabled": true,
+      "resolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "fps": 25
+    },
+    {
+      "id": 3,
+      "name": "Side Gate",
+      "type": "usb",
+      "source": 1,
+      "enabled": true,
+      "resolution": {
+        "width": 1280,
+        "height": 720
+      },
+      "fps": 30
+    },
+    {
+      "id": 4,
+      "name": "Warehouse Interior",
+      "type": "rtsp",
+      "source": "rtsp://192.168.1.101:554/stream1",
+      "enabled": false,
+      "resolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "fps": 25
+    }
+  ],
+  "settings": {
+    "recordingEnabled": false,
+    "recordingPath": "./recordings",
+    "motionDetectionEnabled": true,
+    "alertsEnabled": true
+  }
+}

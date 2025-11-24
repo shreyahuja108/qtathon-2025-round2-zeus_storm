@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/SurveillancePanel/">
+    <file alias="qml/Main.qml">C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel/qml/Main.qml</file>
+    <file alias="qml/CameraTile.qml">C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel/qml/CameraTile.qml</file>
+    <file alias="qml/Toast.qml">C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel/qml/Toast.qml</file>
+    <file alias="qml/RoiOverlay.qml">C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel/qml/RoiOverlay.qml</file>
+    <file alias="qml/AIDetectionOverlay.qml">C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel/qml/AIDetectionOverlay.qml</file>
+    <file alias="qml/AlertLogPanel.qml">C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel/qml/AlertLogPanel.qml</file>
+  </qresource>
+</RCC>
+

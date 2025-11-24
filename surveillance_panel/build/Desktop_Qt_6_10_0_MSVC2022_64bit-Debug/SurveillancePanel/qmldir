@@ -1,0 +1,11 @@
+module SurveillancePanel
+typeinfo surveillance_panel.qmltypes
+prefer :/SurveillancePanel/
+Main 1.0 qml/Main.qml
+CameraTile 1.0 qml/CameraTile.qml
+Toast 1.0 qml/Toast.qml
+RoiOverlay 1.0 qml/RoiOverlay.qml
+AIDetectionOverlay 1.0 qml/AIDetectionOverlay.qml
+AlertLogPanel 1.0 qml/AlertLogPanel.qml
+depends QtQuick
+

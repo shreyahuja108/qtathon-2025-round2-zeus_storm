@@ -1,0 +1,14 @@
+{
+    "alerts": [
+        {
+            "cameraName": "Default Camera",
+            "id": "20251123134632664",
+            "message": "Snapshot taken",
+            "snapshotPath": "C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Debug/snapshots/Default_Camera_20251123_134632.png",
+            "timestamp": "2025-11-23T13:46:32",
+            "type": "snapshot"
+        }
+    ],
+    "exportTime": "2025-11-23T13:46:40",
+    "totalCount": 1
+}

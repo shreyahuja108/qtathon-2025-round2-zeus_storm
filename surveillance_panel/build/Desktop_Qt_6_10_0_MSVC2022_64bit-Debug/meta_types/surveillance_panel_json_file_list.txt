@@ -1,0 +1,4 @@
+C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Debug/surveillance_panel_autogen/include/../UVLADIE3JM/moc_AlertLogModel.cpp.json
+C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Debug/surveillance_panel_autogen/include/../UVLADIE3JM/moc_CameraManager.cpp.json
+C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Debug/surveillance_panel_autogen/include/../UVLADIE3JM/moc_CameraStream.cpp.json
+C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Debug/surveillance_panel_autogen/include/../UVLADIE3JM/moc_HttpServer.cpp.json

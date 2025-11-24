@@ -1,0 +1,1836 @@
+[
+    {
+        "classes": [
+            {
+                "className": "AlertLogModel",
+                "lineNumber": 26,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "cameraName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "image",
+                                "type": "QImage"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 50,
+                        "name": "addSnapshotAlert",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "cameraName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "snapshotPath",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 3,
+                        "lineNumber": 51,
+                        "name": "addMotionAlert",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "cameraName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 4,
+                        "isCloned": true,
+                        "lineNumber": 51,
+                        "name": "addMotionAlert",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "cameraName",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 5,
+                        "isCloned": true,
+                        "lineNumber": 51,
+                        "name": "addMotionAlert",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "cameraName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "snapshotPath",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 6,
+                        "lineNumber": 54,
+                        "name": "addRoiMotionAlert",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "cameraName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 7,
+                        "isCloned": true,
+                        "lineNumber": 54,
+                        "name": "addRoiMotionAlert",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "cameraName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "snapshotPath",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "direction",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 8,
+                        "lineNumber": 57,
+                        "name": "addTripwireAlert",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "cameraName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "snapshotPath",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 9,
+                        "isCloned": true,
+                        "lineNumber": 57,
+                        "name": "addTripwireAlert",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "cameraName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 10,
+                        "isCloned": true,
+                        "lineNumber": 57,
+                        "name": "addTripwireAlert",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "cameraName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "snapshotPath",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 11,
+                        "lineNumber": 61,
+                        "name": "addLoiteringAlert",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "cameraName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 12,
+                        "isCloned": true,
+                        "lineNumber": 61,
+                        "name": "addLoiteringAlert",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 13,
+                        "lineNumber": 64,
+                        "name": "clear",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "filePath",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 14,
+                        "lineNumber": 67,
+                        "name": "exportToCsv",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "filePath",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 15,
+                        "lineNumber": 68,
+                        "name": "exportToJson",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "filePath",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "indices",
+                                "type": "QVariantList"
+                            }
+                        ],
+                        "index": 16,
+                        "lineNumber": 69,
+                        "name": "exportSelectedToCsv",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "filePath",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "indices",
+                                "type": "QVariantList"
+                            }
+                        ],
+                        "index": 17,
+                        "lineNumber": 70,
+                        "name": "exportSelectedToJson",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            },
+                            {
+                                "name": "filePath",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 18,
+                        "lineNumber": 71,
+                        "name": "exportSnapshotAsPng",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "indices",
+                                "type": "QVariantList"
+                            }
+                        ],
+                        "index": 19,
+                        "lineNumber": 74,
+                        "name": "removeAlerts",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 20,
+                        "lineNumber": 75,
+                        "name": "removeAlert",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 21,
+                        "isConst": true,
+                        "lineNumber": 78,
+                        "name": "getSuggestedPngFilename",
+                        "returnType": "QString"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 29,
+                        "name": "count",
+                        "notify": "countChanged",
+                        "read": "rowCount",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "AlertLogModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 81,
+                        "name": "countChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "alert",
+                                "type": "Alert"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 82,
+                        "name": "alertAdded",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "AlertLogModel.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "CameraManager",
+                "lineNumber": 33,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "isConst": true,
+                        "lineNumber": 54,
+                        "name": "cameraName",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 3,
+                        "isConst": true,
+                        "lineNumber": 55,
+                        "name": "cameraAvailable",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 4,
+                        "isConst": true,
+                        "lineNumber": 56,
+                        "name": "cameraType",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 5,
+                        "isConst": true,
+                        "lineNumber": 57,
+                        "name": "cameraSource",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 6,
+                        "isConst": true,
+                        "lineNumber": 60,
+                        "name": "roiPoints",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 7,
+                        "isConst": true,
+                        "lineNumber": 61,
+                        "name": "hasRoi",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            },
+                            {
+                                "name": "points",
+                                "type": "QVariantList"
+                            }
+                        ],
+                        "index": 8,
+                        "lineNumber": 62,
+                        "name": "setRoi",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 9,
+                        "lineNumber": 63,
+                        "name": "clearRoi",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 10,
+                        "isConst": true,
+                        "lineNumber": 66,
+                        "name": "tripwire",
+                        "returnType": "QVariantMap"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 11,
+                        "isConst": true,
+                        "lineNumber": 67,
+                        "name": "hasTripwire",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            },
+                            {
+                                "name": "startX",
+                                "type": "double"
+                            },
+                            {
+                                "name": "startY",
+                                "type": "double"
+                            },
+                            {
+                                "name": "endX",
+                                "type": "double"
+                            },
+                            {
+                                "name": "endY",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 12,
+                        "lineNumber": 68,
+                        "name": "setTripwire",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 13,
+                        "lineNumber": 69,
+                        "name": "clearTripwire",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 38,
+                        "name": "camera1",
+                        "read": "camera1",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QObject*",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 39,
+                        "name": "camera2",
+                        "read": "camera2",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QObject*",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 40,
+                        "name": "camera3",
+                        "read": "camera3",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QObject*",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 41,
+                        "name": "camera4",
+                        "read": "camera4",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QObject*",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "CameraManager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 72,
+                        "name": "roiChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 73,
+                        "name": "tripwireChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "CameraManager.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "CaptureWorker",
+                "lineNumber": 44,
+                "object": true,
+                "qualifiedClassName": "CaptureWorker",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "frame",
+                                "type": "QImage"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 74,
+                        "name": "frameCaptured",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "fps",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 75,
+                        "name": "fpsUpdated",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "error",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 76,
+                        "name": "errorOccurred",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "score",
+                                "type": "double"
+                            },
+                            {
+                                "name": "frame",
+                                "type": "cv::Mat"
+                            }
+                        ],
+                        "index": 3,
+                        "lineNumber": 77,
+                        "name": "motionDetected",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "score",
+                                "type": "double"
+                            },
+                            {
+                                "name": "frame",
+                                "type": "cv::Mat"
+                            }
+                        ],
+                        "index": 4,
+                        "lineNumber": 78,
+                        "name": "roiMotionDetected",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "direction",
+                                "type": "int"
+                            },
+                            {
+                                "name": "frame",
+                                "type": "cv::Mat"
+                            }
+                        ],
+                        "index": 5,
+                        "lineNumber": 79,
+                        "name": "tripwireCrossed",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "detections",
+                                "type": "std::vector<Detection>"
+                            }
+                        ],
+                        "index": 6,
+                        "lineNumber": 80,
+                        "name": "aiDetectionsReady",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "trackId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "label",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "direction",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "frame",
+                                "type": "cv::Mat"
+                            }
+                        ],
+                        "index": 7,
+                        "lineNumber": 81,
+                        "name": "trackCrossedTripwire",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "trackId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "label",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "durationMs",
+                                "type": "qint64"
+                            },
+                            {
+                                "name": "frame",
+                                "type": "cv::Mat"
+                            }
+                        ],
+                        "index": 8,
+                        "lineNumber": 82,
+                        "name": "loiteringDetected",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 9,
+                        "lineNumber": 60,
+                        "name": "start",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 10,
+                        "lineNumber": 61,
+                        "name": "stop",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 11,
+                        "lineNumber": 62,
+                        "name": "captureFrame",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "enabled",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 12,
+                        "lineNumber": 63,
+                        "name": "setMotionEnabled",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "sensitivity",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 13,
+                        "lineNumber": 64,
+                        "name": "setMotionSensitivity",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "normalizedPoints",
+                                "type": "QList<QPointF>"
+                            }
+                        ],
+                        "index": 14,
+                        "lineNumber": 65,
+                        "name": "setRoiPolygon",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 15,
+                        "lineNumber": 66,
+                        "name": "clearRoi",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "startNorm",
+                                "type": "QPointF"
+                            },
+                            {
+                                "name": "endNorm",
+                                "type": "QPointF"
+                            }
+                        ],
+                        "index": 16,
+                        "lineNumber": 67,
+                        "name": "setTripwire",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 17,
+                        "lineNumber": 68,
+                        "name": "clearTripwire",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "enabled",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 18,
+                        "lineNumber": 69,
+                        "name": "setAiEnabled",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "threshold",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 19,
+                        "lineNumber": 70,
+                        "name": "setAiConfidenceThreshold",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "detector",
+                                "type": "ObjectDetector*"
+                            }
+                        ],
+                        "index": 20,
+                        "lineNumber": 71,
+                        "name": "setObjectDetector",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            },
+            {
+                "className": "CameraStream",
+                "lineNumber": 149,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 36,
+                        "lineNumber": 211,
+                        "name": "start",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 37,
+                        "lineNumber": 212,
+                        "name": "stop",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "cameraIndex",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 38,
+                        "lineNumber": 213,
+                        "name": "setSource",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 39,
+                        "lineNumber": 214,
+                        "name": "takeSnapshot",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "targetDir",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 40,
+                        "lineNumber": 215,
+                        "name": "saveSnapshot",
+                        "returnType": "bool"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 152,
+                        "name": "id",
+                        "read": "id",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 153,
+                        "name": "source",
+                        "read": "source",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 154,
+                        "name": "sourceType",
+                        "read": "sourceType",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 155,
+                        "name": "frame",
+                        "notify": "frameChanged",
+                        "read": "frame",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QImage",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 156,
+                        "name": "running",
+                        "notify": "runningChanged",
+                        "read": "isRunning",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "lineNumber": 157,
+                        "name": "fps",
+                        "notify": "fpsChanged",
+                        "read": "fps",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "lineNumber": 158,
+                        "name": "status",
+                        "notify": "statusChanged",
+                        "read": "status",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 7,
+                        "lineNumber": 159,
+                        "name": "cameraName",
+                        "notify": "cameraNameChanged",
+                        "read": "cameraName",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setCameraName"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 8,
+                        "lineNumber": 160,
+                        "name": "motionEnabled",
+                        "notify": "motionEnabledChanged",
+                        "read": "motionEnabled",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setMotionEnabled"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 9,
+                        "lineNumber": 161,
+                        "name": "motionSensitivity",
+                        "notify": "motionSensitivityChanged",
+                        "read": "motionSensitivity",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "write": "setMotionSensitivity"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 10,
+                        "lineNumber": 162,
+                        "name": "motionActive",
+                        "notify": "motionActiveChanged",
+                        "read": "motionActive",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 11,
+                        "lineNumber": 163,
+                        "name": "roiAlertActive",
+                        "notify": "roiAlertActiveChanged",
+                        "read": "roiAlertActive",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 12,
+                        "lineNumber": 164,
+                        "name": "tripwireAlertActive",
+                        "notify": "tripwireAlertActiveChanged",
+                        "read": "tripwireAlertActive",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 13,
+                        "lineNumber": 165,
+                        "name": "aiEnabled",
+                        "notify": "aiEnabledChanged",
+                        "read": "aiEnabled",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setAiEnabled"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 14,
+                        "lineNumber": 166,
+                        "name": "aiConfidenceThreshold",
+                        "notify": "aiConfidenceThresholdChanged",
+                        "read": "aiConfidenceThreshold",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "write": "setAiConfidenceThreshold"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 15,
+                        "lineNumber": 167,
+                        "name": "detections",
+                        "notify": "detectionsChanged",
+                        "read": "detections",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantList",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 16,
+                        "lineNumber": 168,
+                        "name": "autoSnapshotOnMotion",
+                        "notify": "autoSnapshotOnMotionChanged",
+                        "read": "autoSnapshotOnMotion",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setAutoSnapshotOnMotion"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 17,
+                        "lineNumber": 169,
+                        "name": "autoSnapshotOnRoi",
+                        "notify": "autoSnapshotOnRoiChanged",
+                        "read": "autoSnapshotOnRoi",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setAutoSnapshotOnRoi"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 18,
+                        "lineNumber": 170,
+                        "name": "autoSnapshotOnTripwire",
+                        "notify": "autoSnapshotOnTripwireChanged",
+                        "read": "autoSnapshotOnTripwire",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setAutoSnapshotOnTripwire"
+                    }
+                ],
+                "qualifiedClassName": "CameraStream",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 226,
+                        "name": "frameChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 227,
+                        "name": "runningChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 228,
+                        "name": "fpsChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 229,
+                        "name": "statusChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 230,
+                        "name": "cameraNameChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "filePath",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 5,
+                        "lineNumber": 231,
+                        "name": "snapshotSaved",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "reason",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 6,
+                        "lineNumber": 232,
+                        "name": "snapshotFailed",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "lineNumber": 233,
+                        "name": "motionEnabledChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 8,
+                        "lineNumber": 234,
+                        "name": "motionSensitivityChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 9,
+                        "lineNumber": 235,
+                        "name": "motionActiveChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "score",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 10,
+                        "lineNumber": 236,
+                        "name": "motionDetected",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "score",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 11,
+                        "lineNumber": 237,
+                        "name": "roiMotionDetected",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "direction",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 12,
+                        "lineNumber": 238,
+                        "name": "tripwireCrossed",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "trackId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "label",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "direction",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 13,
+                        "lineNumber": 239,
+                        "name": "trackCrossedTripwire",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "trackId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "label",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "durationMs",
+                                "type": "qint64"
+                            }
+                        ],
+                        "index": 14,
+                        "lineNumber": 240,
+                        "name": "loiteringDetected",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 15,
+                        "lineNumber": 241,
+                        "name": "roiAlertActiveChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 16,
+                        "lineNumber": 242,
+                        "name": "tripwireAlertActiveChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 17,
+                        "lineNumber": 243,
+                        "name": "aiEnabledChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 18,
+                        "lineNumber": 244,
+                        "name": "aiConfidenceThresholdChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 19,
+                        "lineNumber": 245,
+                        "name": "detectionsChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "image",
+                                "type": "QImage"
+                            }
+                        ],
+                        "index": 20,
+                        "lineNumber": 246,
+                        "name": "snapshotCaptured",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 21,
+                        "lineNumber": 247,
+                        "name": "autoSnapshotOnMotionChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 22,
+                        "lineNumber": 248,
+                        "name": "autoSnapshotOnRoiChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 23,
+                        "lineNumber": 249,
+                        "name": "autoSnapshotOnTripwireChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "frame",
+                                "type": "QImage"
+                            }
+                        ],
+                        "index": 24,
+                        "lineNumber": 253,
+                        "name": "onFrameCaptured",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "fps",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 25,
+                        "lineNumber": 254,
+                        "name": "onFpsUpdated",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "error",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 26,
+                        "lineNumber": 255,
+                        "name": "onErrorOccurred",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "score",
+                                "type": "double"
+                            },
+                            {
+                                "name": "frame",
+                                "type": "cv::Mat"
+                            }
+                        ],
+                        "index": 27,
+                        "lineNumber": 256,
+                        "name": "onMotionDetected",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "score",
+                                "type": "double"
+                            },
+                            {
+                                "name": "frame",
+                                "type": "cv::Mat"
+                            }
+                        ],
+                        "index": 28,
+                        "lineNumber": 257,
+                        "name": "onRoiMotionDetected",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "direction",
+                                "type": "int"
+                            },
+                            {
+                                "name": "frame",
+                                "type": "cv::Mat"
+                            }
+                        ],
+                        "index": 29,
+                        "lineNumber": 258,
+                        "name": "onTripwireCrossed",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "trackId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "label",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "direction",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "frame",
+                                "type": "cv::Mat"
+                            }
+                        ],
+                        "index": 30,
+                        "lineNumber": 259,
+                        "name": "onTrackCrossedTripwire",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "trackId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "label",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "durationMs",
+                                "type": "qint64"
+                            },
+                            {
+                                "name": "frame",
+                                "type": "cv::Mat"
+                            }
+                        ],
+                        "index": 31,
+                        "lineNumber": 260,
+                        "name": "onLoiteringDetected",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "detections",
+                                "type": "std::vector<Detection>"
+                            }
+                        ],
+                        "index": 32,
+                        "lineNumber": 261,
+                        "name": "onAIDetectionsReady",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 33,
+                        "lineNumber": 262,
+                        "name": "resetMotionActive",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 34,
+                        "lineNumber": 263,
+                        "name": "resetRoiAlertActive",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 35,
+                        "lineNumber": 264,
+                        "name": "resetTripwireAlertActive",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "CameraStream.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "HttpServer",
+                "lineNumber": 18,
+                "object": true,
+                "qualifiedClassName": "HttpServer",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "port",
+                                "type": "quint16"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 38,
+                        "name": "serverStarted",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 39,
+                        "name": "serverStopped",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "method",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "path",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 40,
+                        "name": "requestReceived",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "index": 3,
+                        "lineNumber": 43,
+                        "name": "onNewConnection",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 4,
+                        "lineNumber": 44,
+                        "name": "onReadyRead",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 5,
+                        "lineNumber": 45,
+                        "name": "onDisconnected",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "HttpServer.h",
+        "outputRevision": 69
+    }
+]

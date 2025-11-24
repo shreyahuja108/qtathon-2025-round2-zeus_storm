@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel
+-cmake-output
+-output-file
+C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Debug/.qt/qml_imports/surveillance_panel_conf.cmake
+-importPath
+C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Debug/SurveillancePanel
+-importPath
+C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Debug
+-importPath
+C:/Qt/6.10.0/msvc2022_64/qml
+-qrcFiles
+C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Debug/.qt/rcc/qmake_SurveillancePanel.qrc
+C:/Users/shrey/OneDrive/Desktop/QTHackathon/qtathon-2025-round2-zeus_storm/surveillance_panel/build/Desktop_Qt_6_10_0_MSVC2022_64bit-Debug/.qt/rcc/surveillance_panel_raw_qml_0.qrc
