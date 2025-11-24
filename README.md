@@ -51,39 +51,33 @@ CMake
 Cross-platform, modern build system required for Qt 6.
 
 🏛️ 3. System Architecture
-+-------------------------+
-|   CameraStream (C++)    |
-| - Capture frames        |
-| - FPS estimation        |
-| - Motion detection      |
-| - ROI & Tripwire alerts|
-+-----------+-------------+
-            |
-            v
-+--------------------------+
-|   AI ObjectDetector      |
-| - YOLOv8n ONNX           |
-| - Class detection        |
-| - Tracking (centroid)    |
-+-----------+-------------+
-            |
-            v
-+--------------------------+
-|   Alert Manager          |
-| - Snapshot saving        |
-| - Alert log entries      |
-| - CSV/JSON export        |
-+-----------+-------------+
-            |
-            v
-+--------------------------+
-|   QML Frontend UI        |
-| - Grid view (2–4 tiles)  |
-| - Fullscreen view        |
-| - ROI/Tripwire tools     |
-| - Snapshot panel         |
-| - Toast notifications    |
-+--------------------------+
+## 🏛️ 3. System Architecture
+
+The system is split into four main layers:
+
+1. **CameraStream (C++)**
+   - Captures frames from USB / RTSP / IP cameras
+   - Estimates FPS
+   - Performs basic motion detection
+   - Evaluates ROI/tripwire rules and raises low-level events
+
+2. **AI ObjectDetector (C++)**
+   - Runs YOLOv8n (ONNX) inference on selected frames
+   - Detects objects (person, car, dog, cat, bicycle, etc.)
+   - Normalizes bounding boxes for QML overlay
+   - Provides class labels + confidence scores
+
+3. **Alert Manager**
+   - Receives events from Motion / ROI / Tripwire / AI
+   - Creates structured alert entries (time, camera, type, message)
+   - Manages snapshots on disk
+   - Supports CSV/JSON export for the alert log
+
+4. **QML Frontend UI**
+   - Grid layout for 2–4 camera tiles
+   - Fullscreen camera view with controls (motion, ROI, tripwire, AI)
+   - Alert Log panel with filtering, preview, export, and clearing
+   - Toast notifications for important events
 
 🎥 4. Features
 ✔ Multi-Camera Support
