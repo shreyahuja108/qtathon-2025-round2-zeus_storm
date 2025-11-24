@@ -1,4 +1,4 @@
-🛡️ surveillance_panel
+🛡️ surveillance Panel
 Intelligent Multi-Camera Monitoring System
 
 Built with Qt 6, C++, QML, OpenCV, YOLOv8 (ONNX)
